@@ -12,7 +12,7 @@ public class Tester {
 
         System.out.println(" ");
         System.out.println(list.toString());
-        
+
         Integer test2 = 7;
         list.add(1, test2);
         
@@ -23,6 +23,15 @@ public class Tester {
         System.out.println(list.get(3));
 
         System.out.println(list.toString());
+
+        System.out.println(" ");
+        System.out.println("Testing, get head, tail, is empty, size");
+        System.out.println(list.getHead());
+        System.out.println(list.getTail());
+        System.out.println(list.isEmpty());
+        System.out.println(list.size());
+        System.out.println(" ");
+        System.out.println("list");
 
     };
 }
